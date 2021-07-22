@@ -1,6 +1,6 @@
 
 var isPalindrome = function (x) {
-    y = x.toString().split("").reverse().join("");
+    var y = x.toString().split("").reverse().join("");
 
     if (x < 0) {
         return false;
